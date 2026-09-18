@@ -1,0 +1,18 @@
+name: GiantBee
+version: 1.0.0
+main: me.giantbee.GiantBeePlugin
+api-version: '26.1'
+
+description: Giant Bee Boss
+author: GiantBee
+
+commands:
+  giantbee:
+    description: Giant Bee boss command
+    usage: /giantbee <spawn|kill|info>
+    permission: giantbee.admin
+
+permissions:
+  giantbee.admin:
+    description: Allows access to Giant Bee commands
+    default: op
